@@ -6,7 +6,7 @@ tags: [math]
 
 ## 理论
 
-勾股数是满足 $a^2 + b^2 + c^2$ 的正整数三元组 $(a, b, c)$。如果 $(a, b, c)$ 互质，这一组勾股数就称为本原勾股数。如果想要得到所有的勾股数，只需要先找到其中本原的部分即可。那么，如何高效地生成所有本原勾股数呢？
+勾股数是满足 $a^2 + b^2 = c^2$ 的正整数三元组 $(a, b, c)$。如果 $a, b, c$ 互质，这一组勾股数就称为本原勾股数。如果想要得到所有的勾股数，只需要先找到其中本原的部分即可。那么，如何高效地生成所有本原勾股数呢？
 
 欧几里得给出了这样一个生成本原勾股数的公式：
 
@@ -67,4 +67,4 @@ euclidPairs =
          in [(e, o + e), (o, e + o + o), (e + o, e + o + o)]
 ```
 
-可以认为 `coprimePairs` 是对 [Calkin-Wilf Tree](https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree) 的变体做宽度优先遍历的结果。 如果需要按照生成勾股数按照 $c$ 的大小排序，参考 Dijkstra 算法可以使用优先队列实现。
+可以认为 `coprimePairs` 是对 [Calkin-Wilf Tree](https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree) 的变体做宽度优先遍历的结果。 如果需要按照 $c$ 的大小从小到大生成勾股数，参考 Dijkstra 算法可以使用优先队列实现。
