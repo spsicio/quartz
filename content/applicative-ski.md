@@ -43,10 +43,10 @@ $$
 
 $$
 \begin{aligned}
-  & (S\,(K\,S)\,K)\,\textcolor{grey}{f\,g\,z} \\
+  & (S\,(K\,S)\,K)\,f\,\textcolor{grey}{g\,z} \\
   \overset{S}{\rightarrow}\ & (K\,S)\,f\,(K\,f)\,\textcolor{grey}{g\,z} \\
   \overset{K}{\rightarrow}\ & S\,(K\,f)\,g\,z \\
-  \overset{S}{\rightarrow}\ & (K\,f)\,z\,\textcolor{grey}{(g\,z)} \\
+  \overset{S}{\rightarrow}\ & (K\,f)\,z\,(g\,z) \\
   \overset{K}{\rightarrow}\ & f\,\textcolor{gray}{(g\,z)}
 \end{aligned}
 $$
@@ -62,7 +62,7 @@ $$
 
 Reader Applicative 用于共享外部环境时的函数计算。Reader 代表读取外部环境，Applicative 代表函数计算。为了共用外部环境，Reader Applicative 在所有函数的定义中增加一个代表环境的参数，并在调用其他函数的时将环境参数继续传递。变量也相应地转化为函数，从而涵盖使用环境中变量的情况。
 
-考虑环境的类型为 `r`，我们用 `Reader r a` 表示 `a` 类型转换之后的结果，也就是函数类型 `r -> a`。在值或函数不依赖外部的环境时，我们使用 `pure`（对应组合子的 $K$）将类型从 `a` 转换到 `r -> a`。所有的类型均转换之后，进入到了 Reader 的计算世界。Reader 世界中，函数应用使用 `apply`（对应组合子的 $S$）实现。具体而言，为 `x` 与 `y` 提供的环境参数 `z`，可以得到了原始的的函数与参数（可视为使用全局变量共用环境的版本），然后执行函数应用即可得到结果。
+考虑环境的类型为 `r`，我们用 `Reader r a` 表示 `a` 类型转换之后的结果，也就是函数类型 `r -> a`。在值或函数不依赖外部的环境时，我们使用 `pure`（对应组合子的 $K$）将类型从 `a` 转换到 `r -> a`。所有的类型均转换之后，进入到了 Reader 的计算世界。Reader 世界中，函数应用使用 `apply`（对应组合子的 $S$）实现。具体而言，为 `x` 与 `y` 提供环境参数 `z`，可以得到原始的的函数与参数（可视为使用全局变量共用环境的版本），然后执行函数应用即可得到结果。
 
 ```haskell
 -- pure

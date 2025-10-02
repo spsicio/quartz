@@ -11,14 +11,17 @@ date: 2025-09-28
 
 ---
 
-- 输入法：[[rime|RIME]]
+- 输入法：
+    - [[rime|RIME]]：输入法引擎
+    - [[fcitx|Fcitx]]：输入法框架
 - 笔记管理：[[obsidian|Obsidian]]
 - 记忆软件：[Anki](https://apps.ankiweb.net/)
+- 屏幕录制：[[obs-studio|OBS Studio]]
 - 文件传输：
     - [Localsend](https://localsend.org/)：开源本地网络文件传输软件
     - [Syncthing](https://syncthing.net/)：开源本地网络文件夹同步软件
 - 安全相关：
     - [VeraCrypt](https://veracrypt.io)：开源磁盘加密软件
     - [KeePassXC](https://keepassxc.org/)：开源密码管理器
-- 命令行环境：
-     - [[bash|Bash]]
+- 命令行 Shell：[[bash|Bash]]
+- 编辑器：[[vim|Vim]]

@@ -7,4 +7,5 @@ date: 2025-09-29
 
 ---
 
-- [空岛](https://void-island-site.vercel.app/)：来自「涟漪 Rippin」
+- [void-island](https://void-island-site.vercel.app/)：「涟漪 Rippin」的「空岛」。
+- [zhufn](https://obs.zhufn.fun/)
