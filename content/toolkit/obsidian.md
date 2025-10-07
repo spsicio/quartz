@@ -1,6 +1,7 @@
 ---
 title: Obsidian
-date: 2025-09-29
+created: 2025-09-29
+modified: 2025-10-05
 ---
 
 [Obsidian](https://obsidian.md/) 是一款基于 Markdown 的双链笔记管理软件。

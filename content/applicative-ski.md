@@ -1,6 +1,7 @@
 ---
 title: 重返 SKI，发现应用函子
-data: 2025-09-30
+created: 2025-09-30
+modified: 2025-10-05
 tags: [pl-theory]
 ---
 

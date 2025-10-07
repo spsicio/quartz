@@ -1,6 +1,8 @@
 ---
 title: 研習錄
-date: 2025-09-29
+created: 2025-09-29
+modified: 2025-10-08
+tags: [board]
 ---
 
 > 溫故而知新。

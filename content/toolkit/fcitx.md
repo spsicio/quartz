@@ -1,6 +1,7 @@
 ---
 title: Fcitx
-data: 2025-10-01
+created: 2025-10-01
+modified: 2025-10-05
 ---
 
 [Fcitx](https://fcitx-im.org/wiki/Fcitx_5/zh-cn) /ˈfaɪtɪks/ 是开源的输入法框架，搭载不同的输入法引擎（例如 [[rime|RIME]]）支持不同语言的输入。

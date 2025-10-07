@@ -1,6 +1,7 @@
 ---
 title: Bash
-data: 2025-09-30
+created: 2025-09-30
+modified: 2025-10-07
 ---
 
 在读写 Bash 脚本以外的时候，我不讨厌 Bash。
@@ -22,8 +23,8 @@ Bash 中存在若干影响提示符的环境变量：
 - `PS4`：调试时的提示符。（使用 `set -x` 与 `set +x` 进入与退出。）
 - `PROMPT_COMMAND`：在主提示符显示前执行的命令。
 
-通过修改这些变量，[bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) 插件在提示符中显示仓库的 Git 状态，Python 使用虚拟环境时在提示符前面添加 `(venv) ` 等字符串作为提醒。
+[bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) 和 [Python Venv](https://docs.python.org/zh-cn/3.13/library/venv.html) 修改了 `PS1` 实现在命令行提示符中显示仓库的状态或者提醒目前的 Python 环境是虚拟环境。
 
 ### 杂项
 
-- `TMOUT`：用户在设定的秒数内没有输入时，将超时结束会话。**在服务器上执行命令时需要格外留意这个环境变量！**
+- `TMOUT`：超时结束会话的秒数。**在服务器上时需要留意这个环境变量。**

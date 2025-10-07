@@ -1,6 +1,7 @@
 ---
 title: 如何生成勾股数
-date: 2025-09-29
+created: 2025-09-29
+modified: 2025-10-05
 tags: [math]
 ---
 

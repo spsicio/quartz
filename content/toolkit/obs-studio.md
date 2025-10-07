@@ -1,6 +1,7 @@
 ---
 title: OBS Studio
-date: 2025-10-02
+created: 2025-10-02
+modified: 2025-10-05
 ---
 
 [OBS Studio](https://obsproject.com/) 是一款屏幕录制和直播推流插件。

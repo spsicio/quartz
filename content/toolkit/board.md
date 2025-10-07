@@ -1,6 +1,8 @@
 ---
 title: 令器譜
-date: 2025-09-28
+created: 2025-09-28
+modified: 2025-10-08
+tags: [board]
 ---
 
 > 令，善也。
@@ -18,10 +20,12 @@ date: 2025-09-28
 - 记忆软件：[Anki](https://apps.ankiweb.net/)
 - 屏幕录制：[[obs-studio|OBS Studio]]
 - 文件传输：
-    - [Localsend](https://localsend.org/)：开源本地网络文件传输软件
-    - [Syncthing](https://syncthing.net/)：开源本地网络文件夹同步软件
+    - [Localsend](https://localsend.org/)：本地网络文件传输
+    - [Syncthing](https://syncthing.net/)：本地网络文件夹同步
 - 安全相关：
-    - [VeraCrypt](https://veracrypt.io)：开源磁盘加密软件
-    - [KeePassXC](https://keepassxc.org/)：开源密码管理器
-- 命令行 Shell：[[bash|Bash]]
-- 编辑器：[[vim|Vim]]
+    - [VeraCrypt](https://veracrypt.io)：数据加密
+    - [KeePassXC](https://keepassxc.org/)：密码管理
+- 命令行环境：
+    - 终端：[Ghostty](https://ghostty.org/)
+    - Shell 语言：[[bash|Bash]]
+    - 编辑器：[[vim|Vim]]
