@@ -1,14 +1,15 @@
 ---
 title: Bash
 created: 2025-09-30
-modified: 2025-10-07
+modified: 2025-10-11
 ---
 
 在读写 Bash 脚本以外的时候，我不讨厌 Bash。
 
 ## 使用须知
 
-使用 [ShellCheck](https://github.com/koalaman/shellcheck) 对脚本进行静态分析。
+使用 [ShellCheck](https://github.com/koalaman/shellcheck) 对脚本进行静态分析。  
+可以使用 [Starship](https://starship.rs/) 在 shell 中进行美化。
 
 ## 环境变量
 

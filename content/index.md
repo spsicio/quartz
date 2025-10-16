@@ -1,7 +1,8 @@
 ---
 title: 首頁
 created: 2025-09-28
-modified: 2025-10-08
+modified: 2025-10-13
+tags: [board]
 ---
 
 欢迎来到我的花园，你可以叫我「緗縹」或者「Sicio 西西奥」。
@@ -10,6 +11,7 @@ modified: 2025-10-08
 
 - [[toolkit/board|令器譜]]：工欲善其事，必先利其器。
 - [[study/board|研習錄]]：學而實習之，不亦說乎？
+- [[method/board|經緯序]]：有經有緯，有倫有脊。
 - [[amuseum/board|遊心園]]：心遊萬仞，精騖八極。
 - [[friends|漣水澗]]：君子之交淡如水。
 

@@ -1,7 +1,7 @@
 ---
 title: 令器譜
 created: 2025-09-28
-modified: 2025-10-08
+modified: 2025-10-11
 tags: [board]
 ---
 
@@ -26,6 +26,8 @@ tags: [board]
     - [VeraCrypt](https://veracrypt.io)：数据加密
     - [KeePassXC](https://keepassxc.org/)：密码管理
 - 命令行环境：
-    - 终端：[Ghostty](https://ghostty.org/)
+    - 终端模拟器：[[ghostty|Ghostty]]
     - Shell 语言：[[bash|Bash]]
     - 编辑器：[[vim|Vim]]
+    - 网络协议：[[ssh|SSH]]
+- 配色方案：[Flexoki](https://stephango.com/flexoki)
