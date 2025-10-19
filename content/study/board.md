@@ -1,8 +1,8 @@
 ---
 title: 研習錄
 created: 2025-09-29
-modified: 2025-10-08
-tags: [board]
+modified: 2025-10-19
+tags: []
 ---
 
 > 溫故而知新。
@@ -14,4 +14,6 @@ tags: [board]
 ---
 
 - [[../tags/math|數學]]
-- [[../tags/pl-theory|編程語言]]
+- 编程语言
+    - [[../tags/pl-theory|理論]]
+    - [[../tags/debug|調試]]

@@ -1,8 +1,8 @@
 ---
 title: 經緯序
 created: 2025-10-13
-modified: 2025-10-13
-tags: [board]
+modified: 2025-10-17
+tags: []
 ---
 
 > 总是梦见，云层之上飞过子午线。  
