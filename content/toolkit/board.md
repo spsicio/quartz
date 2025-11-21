@@ -1,7 +1,7 @@
 ---
 title: 令器譜
 created: 2025-09-28
-modified: 2025-10-11
+modified: 2025-11-21
 tags: [board]
 ---
 
@@ -30,4 +30,5 @@ tags: [board]
     - Shell 语言：[[bash|Bash]]
     - 编辑器：[[vim|Vim]]
     - 网络协议：[[ssh|SSH]]
+    - 美化：[[starship|Starship]]
 - 配色方案：[Flexoki](https://stephango.com/flexoki)

@@ -1,7 +1,7 @@
 ---
 title: 漣水澗
 created: 2025-09-29
-modified: 2025-10-17
+modified: 2025-10-21
 tags: []
 ---
 
@@ -9,5 +9,5 @@ tags: []
 
 ---
 
-- [void-island](https://void-island-site.vercel.app/)：「涟漪 Rippin」的「空岛」。
+- [void-island](https://void-island.com/)：「涟漪 Rippin」的「空岛」。
 - [zhufn](https://obs.zhufn.fun/)

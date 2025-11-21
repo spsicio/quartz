@@ -5,7 +5,7 @@ modified: 2025-10-19
 tags: [debug]
 ---
 
-近日，一位朋友在完成 [fp-course](https://github.com/system-f/fp-course) 的练习时遇到了一个奇怪的问题。他对 Parser 的 `<*>` 实现看起来似乎没有任何问题，但是无法通过测试。
+最近一位朋友在完成 [fp-course](https://github.com/system-f/fp-course) 的练习时遇到了一个奇怪的问题。他对 Parser 的 `<*>` 实现看起来似乎没有任何问题，但是无法通过测试。
 
 ```haskell
 instance Applicative Parser where
@@ -86,6 +86,6 @@ list p = list1 p ||| pure Nil
                 else res
 ```
 
-在这个参数的位置传入 `list p` 时，Haskell 为了获得构造子按照函数的定义对 `list p` 进行展开。使用的 `|||` 也使用了模式匹配因此需要将 `list1 p` 进行展开。`list1 p` 又会使用 `<*>` 在这个参数位置传入 `list p`，陷入死循环之中。除了修改 `<*>` 之外，还可以考虑修改 `|||` 的定义，都能规避模式匹配时求值带来的死循环。
+在这个参数的位置传入 `list p` 时，Haskell 为了获得构造子按照函数的定义对 `list p` 进行展开。使用的 `|||` 也使用了模式匹配因此需要将 `list1 p` 展开。`list1 p` 又会使用 `<*>`，再次在参数位置传入 `list p`，从而陷入死循环。除了修改 `<*>` 之外，还可以考虑修改 `|||` 的定义，都能规避模式匹配时求值带来的死循环。
 
 总之，模式匹配须谨慎，尤其是在函数定义这样不起眼的地方——这里没有使用 `case` 和 `let` 这样的关键字明确指出模式匹配的行为。
